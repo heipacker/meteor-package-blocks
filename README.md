@@ -39,7 +39,7 @@ This would only change the hash property of the latest block, but leave all othe
 Additionally all blocks get the current gasprice add:
 
 ```js
-McBlocks.latest.gasPrice; // '1136672632018' (wei)
+McBlocks.latest.gasPrice; // '1136672632018' (sha)
 ```
 
 ### Detecting forks

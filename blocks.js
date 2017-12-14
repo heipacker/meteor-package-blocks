@@ -6,7 +6,7 @@
 
 
 /**
-The McBlocks collection, with some ethereum additions.
+The McBlocks collection, with some moac additions.
 
 @class McBlocks
 @constructor
