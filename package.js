@@ -1,8 +1,8 @@
 Package.describe({
   name: 'moac:blocks',
   summary: 'Provides informations about the current and last 50 blocks',
-  version: '0.3.2',
-  git: 'http://github.com/MOACChain/meteor-package-blocks'
+  version: '0.1.0',
+  git: 'http://github.com/heipacker/meteor-package-blocks'
 });
 
 Package.onUse(function(api) {
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('mongo', ['client', 'server']);
 
   // api.use('frozeman:persistent-minimongo@0.1.3', 'client');
-  api.use('moac:web3@0.15.1', ['client', 'server']);
+  api.use('moac:web3@0.1.0', ['client', 'server']);
 
   api.export(['McBlocks'], ['client', 'server']);
 
